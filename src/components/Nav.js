@@ -1,14 +1,15 @@
 import React from 'react'
 import NavLink from './NavLink'
 
+
 function Nav() {
 
     return (
-        <div className="Nav" style={{'backgroundColor': 'white'}}>
+        <div className="Nav" >
             <NavLink content="Blog" />
             <NavLink content="About Me" />
             <NavLink content="Projects" />
-            <NavLink content="Other" />
+            <NavLink content="Other"/>
         </div>
     )
 }
